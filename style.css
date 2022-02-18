@@ -1,0 +1,36 @@
+/* generali */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} 
+
+.container {
+    height: 90vh;
+    width: 100vw;
+    background-color: aquamarine;
+    display: flex;
+}
+
+.classroom {
+    height: 70vh;
+    width: 90vw;
+    background-color: lightblue;
+    display: flex; 
+    justify-content: center;
+}
+
+.classmate {
+    height: 15vh;
+    width: 15vw;
+    background-color: blue;
+    flex-wrap: wrap;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+
+footer {
+    height: calc(100vh - 90vh);
+    width: calc(100vw - 80vw);
+}
