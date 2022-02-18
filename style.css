@@ -9,6 +9,7 @@
 footer {
     height: 3vh;
     width: 100vw;
+    z-index: 1;
 }
 
 /* TODO inizio classi main */
@@ -54,6 +55,7 @@ footer {
     margin-top: 10px;
     padding-left: 10px;
     padding-top: 10px;
+    overflow-y: scroll;
 }
 
 .classmate {
