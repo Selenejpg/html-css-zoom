@@ -3,34 +3,342 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 } 
+
+footer {
+    height: 3vh;
+    width: 100vw;
+}
+
+/* TODO inizio classi main */
+
+.speaker {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 13px;
+}
+
+.view {
+    margin-right: 10px;
+    color: white;
+    background-color: grey;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.extend {
+    color: white;
+    background-color: grey;
+    padding: 5px;
+    border-radius: 5px;
+}
 
 .container {
     height: 90vh;
     width: 100vw;
-    background-color: aquamarine;
+    background-color: rgba(0, 0, 0, 0.918);
     display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
 }
 
 .classroom {
-    height: 70vh;
-    width: 90vw;
-    background-color: lightblue;
+    height: 80vh;
+    width: 88vw;
+    background-color: #151515;
     display: flex; 
-    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
 }
 
 .classmate {
     height: 15vh;
-    width: 15vw;
-    background-color: blue;
-    flex-wrap: wrap;
-    margin-right: 10px;
-    margin-top: 20px;
+    width: 12vw;
+    background-color: white;
+    margin-right: 5px;
+    position: relative;
 }
 
-
-footer {
-    height: calc(100vh - 90vh);
-    width: calc(100vw - 80vw);
+.name {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 12px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 5px;
 }
+
+.fa-microphone-slash {
+    color: white;
+}
+
+/* TODO inizio classi immagini main */
+
+.uno {
+    background-image: url(./asset/img/Goku-Z.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.due {
+    background-image: url(./asset/img/Gohan.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tre {
+    background-image: url(./asset/img/Vegeta_-_Dragon_Ball_Kai.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.quattro {
+    background-image: url(./asset/img/Bulma.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cinque {
+    background-image: url(./asset/img/dragon-ball-zs-chi-chi-deserved-better.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sei {
+    background-image: url(./asset/img/BabidiDBZ.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sette {
+    background-image: url(./asset/img/1200px-Cell_Dragon_Ball_Heroes.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.otto {
+    background-image: url(./asset/img/Chiaoztu.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nove {
+    background-image: url(./asset/img/dende.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dieci {
+    background-image: url(./asset/img/christophe-lestringand-0056a.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.undici {
+    background-image: url(./asset/img/Freezer_fantasma.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dodici {
+    background-image: url(./asset/img/maxresdefault.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tredici {
+    background-image: url(.//asset/img/Android_16_DBZ.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.quattordici {
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tredici {
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.quattordici {
+    background-image: url(./asset/img/Svelato\ C-17\ come\ prossimo\ DLC\ per\ Dragon\ Ball\ FighterZ--.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.quindici {
+    background-image: url(./asset/img/Androide_17_-_aspetto.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sedici{
+    background-image: url(./asset/img/dragon-ball-re-kaioh-donna-cosplay-nadyasonika-v4-495162-1280x960.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.diciassette {
+    background-image: url(./asset/img/muten.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.diciotto {
+    background-image: url(./asset/img/supremo2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.diciannove {
+    background-image: url(./asset/img/dragon-ball-super-super-hero-pelicula-solucionara-error-diseno-krilin-llevamos-viendo-decadas-2421745.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.venti {
+    background-image: url(./asset/img/dragon-ball-z-saga-di-majin-bu.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ventuno {
+    background-image: url(./asset/img/Mr-satan-maxw-650.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ventidue {
+    background-image: url(./asset/img/Napa_arrabbiato.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ventitre {
+    background-image: url(./asset/img/junior.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ventiquattro {
+    background-image: url(./asset/img/65635-Goten-Dragon-Ball.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.venticinque {
+    background-image: url(./asset/img/Tenshinhan.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ventisei {
+    background-image: url(./asset/img/dragon-ball-z-trunks-futuro-minaccioso-statua-5000-euro-v3-494463.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ventisette {
+    background-image: url(./asset/img/dragon-ball-z-videl-mette-prova-cosplay-moneecastro-v3-466531-1280x960.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ventotto {
+    background-image: url(./asset/img/YajirobeAS.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ventinove {
+    background-image: url(./asset/img/maxresdefault1.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.trenta {
+    background-image: url(./asset/img/ZarbonVsVegetaIINV.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.trentuno {
+    background-image: url(./asset/img/71d10a61a625038447d89f47a035f4f6.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.trentadue {
+    background-image: url(./asset/img/Mr.Popo_.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.trentatre {
+    background-image: url(./asset/img/dragon-ball-possibile-doppione-live-action-dr-gelo-v3-351156.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.trentaquattro {
+    background-image: url(./asset/img/72693-1532336916.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.trentacinque {
+    background-image: url(./asset/img/Dragon-Ball-Launch.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* TODO inizio classi immagini main */
+
+/* TODO fine classi main */
