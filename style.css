@@ -9,7 +9,8 @@
 footer {
     height: 3vh;
     width: 100vw;
-    z-index: 1;
+    z-index: 1; 
+    background-color: #222222;
 }
 
 /* TODO inizio classi main */
@@ -341,6 +342,68 @@ footer {
     background-size: cover;
 }
 
-/* TODO inizio classi immagini main */
+/* TODO fine classi immagini main */
 
 /* TODO fine classi main */
+
+
+/* TODO inizio classi footer */
+
+.container-footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #222222;
+}
+
+.footer-left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.footer-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    color: white;
+}
+
+.fa-solid {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.fa-share-from-square {
+    color: limegreen;
+}
+
+.description {
+    font-size: 13px;
+}
+
+.chiamata {
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: #4a4a4a;
+    color: red;
+}
+
+
+/* TODO fine classi footer */
