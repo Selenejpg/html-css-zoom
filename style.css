@@ -353,6 +353,7 @@ footer {
     display: flex;
     justify-content: space-between;
     background-color: #222222;
+    overflow-x: scroll;
 }
 
 .footer-left {
