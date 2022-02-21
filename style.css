@@ -81,6 +81,22 @@ footer {
     color: white;
 }
 
+.footer-icon:hover {
+    cursor: pointer;
+}
+
+.view:hover {
+    cursor: pointer;
+}
+
+.chiamata:hover {
+    cursor: pointer;
+}
+
+.extend:hover {
+    cursor: pointer;
+}
+
 /* TODO inizio classi immagini main */
 
 .uno {
