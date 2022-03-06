@@ -7,10 +7,13 @@
 } 
 
 footer {
-    height: 3vh;
     width: 100vw;
     z-index: 1; 
     background-color: #222222;
+}
+
+main {
+    margin-top: 5vh;
 }
 
 /* TODO inizio classi main */
@@ -366,10 +369,11 @@ footer {
 /* TODO inizio classi footer */
 
 .container-footer {
+
     display: flex;
     justify-content: space-between;
     background-color: #222222;
-    overflow-x: scroll;
+    overflow-y: scroll;
 }
 
 .footer-left {
